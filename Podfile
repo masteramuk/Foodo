@@ -6,8 +6,17 @@ use_frameworks!
 pod 'Alamofire', '~> 1.2'
 pod 'HanekeSwift'
 pod 'SwiftyJSON', '>= 2.2'
-pod 'Parse-iOS-SDK', '~> 1.3'
-pod 'ParseFacebookUtilsV4'
+pod 'Facebook-iOS-SDK'
+pod 'Parse'
+pod 'ParseFacebookUtils', '~> 1.2'
+pod 'JSQMessagesViewController'
+
+#pod 'IMFGoogleAuthentication'
+#pod 'IMFFacebookAuthentication'
+#pod 'IMFPush'
+#pod 'IMFData'
+#pod 'IMFURLProtocol'
+#pod 'IMFCore'
 
 target 'Foodo' do
 
