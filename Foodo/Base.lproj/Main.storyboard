@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="LoginViewController" customModule="Foodo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +18,99 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IzP-Gi-4Xu" customClass="FBLoginView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="IzP-Gi-4Xu" secondAttribute="height" multiplier="184:35" id="E61-1P-RVx"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="E61-1P-RVx"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="E61-1P-RVx"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IzP-Gi-4Xu" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="PWG-DD-gz1"/>
+                            <constraint firstItem="IzP-Gi-4Xu" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="STP-gJ-f6i"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="IzP-Gi-4Xu" secondAttribute="bottom" constant="20" id="Ss9-5P-ABw"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="IzP-Gi-4Xu"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Ss9-5P-ABw"/>
+                                <exclude reference="PWG-DD-gz1"/>
+                                <exclude reference="STP-gJ-f6i"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="IzP-Gi-4Xu"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Ss9-5P-ABw"/>
+                                <include reference="PWG-DD-gz1"/>
+                                <include reference="STP-gJ-f6i"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="fbLoginView" destination="IzP-Gi-4Xu" id="eOg-QY-IdL"/>
+                        <segue destination="zKa-9C-0NL" kind="show" identifier="NavigationSegue" id="vRA-V3-DOo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="495" y="958"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="2Q8-Fi-YM4">
+            <objects>
+                <viewController id="YrD-8y-6w1" customClass="HomeViewController" customModule="Foodo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="chE-ir-BiM"/>
+                        <viewControllerLayoutGuide type="bottom" id="1u4-f6-MVy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ort-fd-diU">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="uU9-QB-n6A">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="Vay-iu-iBi"/>
+                        <barButtonItem key="rightBarButtonItem" title="Setting" id="EYf-tw-4Ln"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s9V-zK-wAP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2292" y="958"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="iDN-h1-Xf0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zKa-9C-0NL" customClass="NavigationController" customModule="Foodo" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="u1X-qu-VTR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="YrD-8y-6w1" kind="relationship" relationship="rootViewController" id="bc3-lz-rlC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JCj-lt-bgi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1393.5" y="958"/>
         </scene>
     </scenes>
 </document>
