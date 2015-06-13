@@ -33,8 +33,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Parse.setApplicationId("TWRp4B0hexAerRfxyrKTVaKzc6ZVYk4kdeCCyIf7",
             clientKey: "dMfyQCq1RftwnYTSn8sSSNa8voAJzSplFufYAUbt")
         
+        //PFFacebookUtils.initializeFacebookWithApplicationLaunchOptions(launchOptions)
+        
         // [Optional] Track statistics around application opens.
         PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+        /*
+        // initialize SDK with IBM Bluemix application ID and route
+        IMFClient.sharedInstance().initializeWithBackendRoute("https://foodo.mybluemix.net", backendGUID: "cd58100c-b1d0-4884-bf20-d4e47da2fe26")
+*/
+        
+        UINavigationBar.appearance().translucent = false
+        UINavigationBar.appearance().barTintColor = UIColor(rgba: "#F05C7F")
+        UINavigationBar.appearance().tintColor = UIColor.whiteColor()
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName:UIColor.whiteColor()]
+        
         
         return true
     }
