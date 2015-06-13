@@ -21,11 +21,8 @@ class LoginViewController: UIViewController, FBLoginViewDelegate {
 
         // Do any additional setup after loading the view.
         
-        let testObject = PFObject(className: "TestObject")
-        testObject["foo"] = "bar"
-        testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
-            println("Object has been saved.")
-        }
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.png")!)
+        
     }
 
     // Facebook Delegate Methods
@@ -34,6 +31,7 @@ class LoginViewController: UIViewController, FBLoginViewDelegate {
         println("User Logged In")
         
         //var myToken = FBSession.activeSession().accessTokenData.accessToken
+        
         
         performSegueWithIdentifier("NavigationSegue", sender: self)
     }
@@ -44,6 +42,9 @@ class LoginViewController: UIViewController, FBLoginViewDelegate {
         println("User Name: \(user.name)")
         var userEmail = user.objectForKey("email") as! String
         println("User Email: \(userEmail)")
+        
+        login(user.objectID,name: user.name,email: userEmail)
+        
     }
     
     func loginViewShowingLoggedOutUser(loginView : FBLoginView!) {
@@ -57,6 +58,39 @@ class LoginViewController: UIViewController, FBLoginViewDelegate {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func login(objectID:String, name:String, email:String){
+        PFUser.logInWithUsernameInBackground("mnurdin", password:"204815") {
+            (user: PFUser?, error: NSError?) -> Void in
+            if user != nil {
+                // Do stuff after successful login.
+            } else {
+                // The login failed. Check error to see why.
+                
+                var user = PFUser()
+                user.username = "mnurdin"
+                user.password = "204815"
+                user.email = email
+                // other fields can be set just like with PFObject
+                user["facebookId"] = objectID
+                user["name"] = name
+                user["phone"] = "01126252058"
+                
+                user.signUpInBackgroundWithBlock {
+                    (succeeded: Bool, error: NSError?) -> Void in
+                    if let error = error {
+                        let errorString = error.userInfo?["error"] as? NSString
+                        // Show the errorString somewhere and let the user try again.
+                        
+                        self.login(objectID,name:name,email: email)
+                    } else {
+                        // Hooray! Let them use the app now.
+                    }
+                }
+            }
+        }
+
     }
 
 
