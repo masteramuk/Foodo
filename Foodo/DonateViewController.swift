@@ -49,5 +49,16 @@ class DonateViewController: UIViewController {
         needView.hidden = true
         messageView.hidden = true
     }
+    
+    @IBAction func btnLogout(sender: AnyObject) {
+        PFUser.logOut()
+        var currentUser = PFUser.currentUser() // this will now be nil
+        
+        FBSession.activeSession().closeAndClearTokenInformation()
+        
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        let loginViewController = storyBoard.instantiateViewControllerWithIdentifier("LoginView") as! LoginViewController
+        presentViewController(loginViewController, animated:true, completion:nil)
+    }
 
 }
