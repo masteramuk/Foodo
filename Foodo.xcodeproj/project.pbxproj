@@ -9,11 +9,46 @@
 /* Begin PBXBuildFile section */
 		1625660B1B2BE6C700E1AC12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625660A1B2BE6C700E1AC12 /* AppDelegate.swift */; };
 		1625660E1B2BE6C700E1AC12 /* Foodo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1625660C1B2BE6C700E1AC12 /* Foodo.xcdatamodeld */; };
-		162566101B2BE6C700E1AC12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625660F1B2BE6C700E1AC12 /* ViewController.swift */; };
 		162566131B2BE6C700E1AC12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162566111B2BE6C700E1AC12 /* Main.storyboard */; };
 		162566151B2BE6C700E1AC12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162566141B2BE6C700E1AC12 /* Images.xcassets */; };
 		162566181B2BE6C700E1AC12 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 162566161B2BE6C700E1AC12 /* LaunchScreen.xib */; };
 		162566241B2BE6C700E1AC12 /* FoodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162566231B2BE6C700E1AC12 /* FoodoTests.swift */; };
+		162566301B2BF2E700E1AC12 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1625662F1B2BF2E700E1AC12 /* Podfile */; };
+		162566321B2BF4C000E1AC12 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162566311B2BF4C000E1AC12 /* LoginViewController.swift */; };
+		162566341B2BF90B00E1AC12 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162566331B2BF90B00E1AC12 /* HomeViewController.swift */; };
+		162566371B2BFA0200E1AC12 /* CustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 162566361B2BFA0200E1AC12 /* CustomObject.m */; };
+		162566391B2C00EF00E1AC12 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162566381B2C00EF00E1AC12 /* NavigationController.swift */; };
+		1625663B1B2C278B00E1AC12 /* DonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625663A1B2C278B00E1AC12 /* DonateViewController.swift */; };
+		162566411B2C4B9100E1AC12 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1625663F1B2C4B9100E1AC12 /* bg.png */; };
+		162566421B2C4B9100E1AC12 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 162566401B2C4B9100E1AC12 /* logo.png */; };
+		162566441B2C532A00E1AC12 /* notification-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 162566431B2C532A00E1AC12 /* notification-icon.png */; };
+		162566471B2C576F00E1AC12 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162566461B2C576F00E1AC12 /* UIColorExtension.swift */; };
+		162566491B2C587B00E1AC12 /* profile-pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 162566481B2C587B00E1AC12 /* profile-pic.png */; };
+		1625664B1B2C5C3400E1AC12 /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625664A1B2C5C3400E1AC12 /* ValidationViewController.swift */; };
+		1625664D1B2C736200E1AC12 /* bread.png in Resources */ = {isa = PBXBuildFile; fileRef = 1625664C1B2C736200E1AC12 /* bread.png */; };
+		162566501B2C761700E1AC12 /* Time-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1625664F1B2C761700E1AC12 /* Time-50.png */; };
+		162566521B2C7C1600E1AC12 /* Camera-50-p.png in Resources */ = {isa = PBXBuildFile; fileRef = 162566511B2C7C1600E1AC12 /* Camera-50-p.png */; };
+		162566541B2C828800E1AC12 /* UploadDonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162566531B2C828800E1AC12 /* UploadDonateViewController.swift */; };
+		162566561B2C829B00E1AC12 /* UploadCollectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162566551B2C829B00E1AC12 /* UploadCollectViewController.swift */; };
+		162566581B2C867A00E1AC12 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162566571B2C867A00E1AC12 /* SettingTableViewController.swift */; };
+		1625665A1B2C96B700E1AC12 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162566591B2C96B700E1AC12 /* CategoryTableViewController.swift */; };
+		1625665E1B2CA29700E1AC12 /* DonateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625665D1B2CA29700E1AC12 /* DonateTableViewController.swift */; };
+		162566601B2CAA8200E1AC12 /* DonorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625665F1B2CAA8200E1AC12 /* DonorDetailViewController.swift */; };
+		162566621B2CB92900E1AC12 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 162566611B2CB92900E1AC12 /* user.png */; };
+		162566641B2CCA4500E1AC12 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 162566631B2CCA4500E1AC12 /* Splash.png */; };
+		162566691B2CCCCD00E1AC12 /* collector2.png in Resources */ = {isa = PBXBuildFile; fileRef = 162566651B2CCCCC00E1AC12 /* collector2.png */; };
+		1625666A1B2CCCCD00E1AC12 /* Collector3.png in Resources */ = {isa = PBXBuildFile; fileRef = 162566661B2CCCCD00E1AC12 /* Collector3.png */; };
+		1625666B1B2CCCCD00E1AC12 /* food2.png in Resources */ = {isa = PBXBuildFile; fileRef = 162566671B2CCCCD00E1AC12 /* food2.png */; };
+		1625666C1B2CCCCD00E1AC12 /* food3.png in Resources */ = {isa = PBXBuildFile; fileRef = 162566681B2CCCCD00E1AC12 /* food3.png */; };
+		1625666E1B2CEE8100E1AC12 /* NeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625666D1B2CEE8100E1AC12 /* NeedTableViewController.swift */; };
+		162566701B2CEFBC00E1AC12 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625666F1B2CEFBC00E1AC12 /* MessageViewController.swift */; };
+		1646D8A41B2CF2E4009355A8 /* bubble-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1646D8A31B2CF2E4009355A8 /* bubble-screen.png */; };
+		1646D8A61B2CF91C009355A8 /* Ok-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1646D8A51B2CF91C009355A8 /* Ok-50.png */; };
+		1646D8A81B2CFCEC009355A8 /* ThankyouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1646D8A71B2CFCEC009355A8 /* ThankyouViewController.swift */; };
+		1646D8AA1B2CFF6C009355A8 /* 15mins.png in Resources */ = {isa = PBXBuildFile; fileRef = 1646D8A91B2CFF6C009355A8 /* 15mins.png */; };
+		1646D8AC1B2CFF76009355A8 /* dropdown-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1646D8AB1B2CFF76009355A8 /* dropdown-icon.png */; };
+		1646D8AE1B2D0220009355A8 /* DonorResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1646D8AD1B2D0220009355A8 /* DonorResultViewController.swift */; };
+		6B8562503A2096C27C7FA5BC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA52940BD5E45F6E259C5CBC /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +66,51 @@
 		162566091B2BE6C700E1AC12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1625660A1B2BE6C700E1AC12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1625660D1B2BE6C700E1AC12 /* Foodo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Foodo.xcdatamodel; sourceTree = "<group>"; };
-		1625660F1B2BE6C700E1AC12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		162566121B2BE6C700E1AC12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		162566141B2BE6C700E1AC12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		162566171B2BE6C700E1AC12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1625661D1B2BE6C700E1AC12 /* FoodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		162566221B2BE6C700E1AC12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		162566231B2BE6C700E1AC12 /* FoodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodoTests.swift; sourceTree = "<group>"; };
+		1625662F1B2BF2E700E1AC12 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		162566311B2BF4C000E1AC12 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		162566331B2BF90B00E1AC12 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		162566351B2BFA0200E1AC12 /* Foodo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Foodo-Bridging-Header.h"; sourceTree = "<group>"; };
+		162566361B2BFA0200E1AC12 /* CustomObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomObject.m; sourceTree = "<group>"; };
+		162566381B2C00EF00E1AC12 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		1625663A1B2C278B00E1AC12 /* DonateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonateViewController.swift; sourceTree = "<group>"; };
+		1625663F1B2C4B9100E1AC12 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = Images/bg.png; sourceTree = "<group>"; };
+		162566401B2C4B9100E1AC12 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Images/logo.png; sourceTree = "<group>"; };
+		162566431B2C532A00E1AC12 /* notification-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "notification-icon.png"; path = "Images/notification-icon.png"; sourceTree = "<group>"; };
+		162566461B2C576F00E1AC12 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = Library/UIColorExtension.swift; sourceTree = "<group>"; };
+		162566481B2C587B00E1AC12 /* profile-pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile-pic.png"; path = "Images/profile-pic.png"; sourceTree = "<group>"; };
+		1625664A1B2C5C3400E1AC12 /* ValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
+		1625664C1B2C736200E1AC12 /* bread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bread.png; path = Images/bread.png; sourceTree = "<group>"; };
+		1625664F1B2C761700E1AC12 /* Time-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Time-50.png"; path = "Images/Time-50.png"; sourceTree = "<group>"; };
+		162566511B2C7C1600E1AC12 /* Camera-50-p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Camera-50-p.png"; path = "Images/Camera-50-p.png"; sourceTree = "<group>"; };
+		162566531B2C828800E1AC12 /* UploadDonateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadDonateViewController.swift; sourceTree = "<group>"; };
+		162566551B2C829B00E1AC12 /* UploadCollectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadCollectViewController.swift; sourceTree = "<group>"; };
+		162566571B2C867A00E1AC12 /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		162566591B2C96B700E1AC12 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		1625665D1B2CA29700E1AC12 /* DonateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonateTableViewController.swift; sourceTree = "<group>"; };
+		1625665F1B2CAA8200E1AC12 /* DonorDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonorDetailViewController.swift; sourceTree = "<group>"; };
+		162566611B2CB92900E1AC12 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user.png; path = Images/user.png; sourceTree = "<group>"; };
+		162566631B2CCA4500E1AC12 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Splash.png; path = Images/Splash.png; sourceTree = "<group>"; };
+		162566651B2CCCCC00E1AC12 /* collector2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = collector2.png; path = Images/collector2.png; sourceTree = "<group>"; };
+		162566661B2CCCCD00E1AC12 /* Collector3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Collector3.png; path = Images/Collector3.png; sourceTree = "<group>"; };
+		162566671B2CCCCD00E1AC12 /* food2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = food2.png; path = Images/food2.png; sourceTree = "<group>"; };
+		162566681B2CCCCD00E1AC12 /* food3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = food3.png; path = Images/food3.png; sourceTree = "<group>"; };
+		1625666D1B2CEE8100E1AC12 /* NeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeedTableViewController.swift; sourceTree = "<group>"; };
+		1625666F1B2CEFBC00E1AC12 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		1646D8A31B2CF2E4009355A8 /* bubble-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bubble-screen.png"; path = "Images/bubble-screen.png"; sourceTree = "<group>"; };
+		1646D8A51B2CF91C009355A8 /* Ok-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ok-50.png"; path = "Images/Ok-50.png"; sourceTree = "<group>"; };
+		1646D8A71B2CFCEC009355A8 /* ThankyouViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThankyouViewController.swift; sourceTree = "<group>"; };
+		1646D8A91B2CFF6C009355A8 /* 15mins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 15mins.png; path = Images/15mins.png; sourceTree = "<group>"; };
+		1646D8AB1B2CFF76009355A8 /* dropdown-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dropdown-icon.png"; path = "Images/dropdown-icon.png"; sourceTree = "<group>"; };
+		1646D8AD1B2D0220009355A8 /* DonorResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonorResultViewController.swift; sourceTree = "<group>"; };
+		7FA63034D81D66C0A96D4C3D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		82E84B2E4B6FFE20C0C95C32 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DA52940BD5E45F6E259C5CBC /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B8562503A2096C27C7FA5BC /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,9 +135,12 @@
 		162565FC1B2BE6C600E1AC12 = {
 			isa = PBXGroup;
 			children = (
+				1625662F1B2BF2E700E1AC12 /* Podfile */,
 				162566071B2BE6C700E1AC12 /* Foodo */,
 				162566201B2BE6C700E1AC12 /* FoodoTests */,
 				162566061B2BE6C700E1AC12 /* Products */,
+				7CD74150340A256C66F08EE4 /* Pods */,
+				AA4A9AAB3AE17689FEEE494A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,12 +156,30 @@
 		162566071B2BE6C700E1AC12 /* Foodo */ = {
 			isa = PBXGroup;
 			children = (
+				162566351B2BFA0200E1AC12 /* Foodo-Bridging-Header.h */,
+				162566361B2BFA0200E1AC12 /* CustomObject.m */,
 				1625660A1B2BE6C700E1AC12 /* AppDelegate.swift */,
-				1625660F1B2BE6C700E1AC12 /* ViewController.swift */,
-				162566111B2BE6C700E1AC12 /* Main.storyboard */,
+				162566591B2C96B700E1AC12 /* CategoryTableViewController.swift */,
+				1625665D1B2CA29700E1AC12 /* DonateTableViewController.swift */,
+				1625663A1B2C278B00E1AC12 /* DonateViewController.swift */,
+				1625665F1B2CAA8200E1AC12 /* DonorDetailViewController.swift */,
+				1646D8AD1B2D0220009355A8 /* DonorResultViewController.swift */,
+				162566331B2BF90B00E1AC12 /* HomeViewController.swift */,
+				162566311B2BF4C000E1AC12 /* LoginViewController.swift */,
+				1625666F1B2CEFBC00E1AC12 /* MessageViewController.swift */,
+				162566381B2C00EF00E1AC12 /* NavigationController.swift */,
+				1625666D1B2CEE8100E1AC12 /* NeedTableViewController.swift */,
+				162566571B2C867A00E1AC12 /* SettingTableViewController.swift */,
+				1646D8A71B2CFCEC009355A8 /* ThankyouViewController.swift */,
+				162566551B2C829B00E1AC12 /* UploadCollectViewController.swift */,
+				162566531B2C828800E1AC12 /* UploadDonateViewController.swift */,
+				1625664A1B2C5C3400E1AC12 /* ValidationViewController.swift */,
 				162566141B2BE6C700E1AC12 /* Images.xcassets */,
-				162566161B2BE6C700E1AC12 /* LaunchScreen.xib */,
 				1625660C1B2BE6C700E1AC12 /* Foodo.xcdatamodeld */,
+				1625663E1B2C4B7F00E1AC12 /* Images */,
+				162566161B2BE6C700E1AC12 /* LaunchScreen.xib */,
+				162566451B2C571700E1AC12 /* Library */,
+				162566111B2BE6C700E1AC12 /* Main.storyboard */,
 				162566081B2BE6C700E1AC12 /* Supporting Files */,
 			);
 			path = Foodo;
@@ -115,6 +210,55 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1625663E1B2C4B7F00E1AC12 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1646D8AB1B2CFF76009355A8 /* dropdown-icon.png */,
+				1646D8A91B2CFF6C009355A8 /* 15mins.png */,
+				1646D8A51B2CF91C009355A8 /* Ok-50.png */,
+				1646D8A31B2CF2E4009355A8 /* bubble-screen.png */,
+				162566651B2CCCCC00E1AC12 /* collector2.png */,
+				162566661B2CCCCD00E1AC12 /* Collector3.png */,
+				162566671B2CCCCD00E1AC12 /* food2.png */,
+				162566681B2CCCCD00E1AC12 /* food3.png */,
+				162566631B2CCA4500E1AC12 /* Splash.png */,
+				162566611B2CB92900E1AC12 /* user.png */,
+				162566511B2C7C1600E1AC12 /* Camera-50-p.png */,
+				1625664F1B2C761700E1AC12 /* Time-50.png */,
+				1625664C1B2C736200E1AC12 /* bread.png */,
+				162566481B2C587B00E1AC12 /* profile-pic.png */,
+				162566431B2C532A00E1AC12 /* notification-icon.png */,
+				1625663F1B2C4B9100E1AC12 /* bg.png */,
+				162566401B2C4B9100E1AC12 /* logo.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		162566451B2C571700E1AC12 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				162566461B2C576F00E1AC12 /* UIColorExtension.swift */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		7CD74150340A256C66F08EE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82E84B2E4B6FFE20C0C95C32 /* Pods.debug.xcconfig */,
+				7FA63034D81D66C0A96D4C3D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA4A9AAB3AE17689FEEE494A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA52940BD5E45F6E259C5CBC /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 162566271B2BE6C700E1AC12 /* Build configuration list for PBXNativeTarget "Foodo" */;
 			buildPhases = (
+				1740653A624DEEB7655C2114 /* Check Pods Manifest.lock */,
 				162566011B2BE6C700E1AC12 /* Sources */,
 				162566021B2BE6C700E1AC12 /* Frameworks */,
 				162566031B2BE6C700E1AC12 /* Resources */,
+				C50349D5B432B30C3E398E84 /* Embed Pods Frameworks */,
+				91B1758693B770945C0C4469 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,6 +311,7 @@
 				TargetAttributes = {
 					162566041B2BE6C700E1AC12 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = K983C4KL5R;
 					};
 					1625661C1B2BE6C700E1AC12 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -195,8 +343,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1646D8AC1B2CFF76009355A8 /* dropdown-icon.png in Resources */,
+				162566411B2C4B9100E1AC12 /* bg.png in Resources */,
+				162566641B2CCA4500E1AC12 /* Splash.png in Resources */,
+				1646D8AA1B2CFF6C009355A8 /* 15mins.png in Resources */,
+				162566521B2C7C1600E1AC12 /* Camera-50-p.png in Resources */,
+				162566621B2CB92900E1AC12 /* user.png in Resources */,
+				162566691B2CCCCD00E1AC12 /* collector2.png in Resources */,
+				1646D8A61B2CF91C009355A8 /* Ok-50.png in Resources */,
+				1646D8A41B2CF2E4009355A8 /* bubble-screen.png in Resources */,
 				162566131B2BE6C700E1AC12 /* Main.storyboard in Resources */,
+				1625666B1B2CCCCD00E1AC12 /* food2.png in Resources */,
+				1625664D1B2C736200E1AC12 /* bread.png in Resources */,
+				1625666C1B2CCCCD00E1AC12 /* food3.png in Resources */,
+				162566421B2C4B9100E1AC12 /* logo.png in Resources */,
 				162566181B2BE6C700E1AC12 /* LaunchScreen.xib in Resources */,
+				162566491B2C587B00E1AC12 /* profile-pic.png in Resources */,
+				1625666A1B2CCCCD00E1AC12 /* Collector3.png in Resources */,
+				162566301B2BF2E700E1AC12 /* Podfile in Resources */,
+				162566501B2C761700E1AC12 /* Time-50.png in Resources */,
+				162566441B2C532A00E1AC12 /* notification-icon.png in Resources */,
 				162566151B2BE6C700E1AC12 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,14 +376,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1740653A624DEEB7655C2114 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91B1758693B770945C0C4469 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C50349D5B432B30C3E398E84 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		162566011B2BE6C700E1AC12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				162566101B2BE6C700E1AC12 /* ViewController.swift in Sources */,
+				162566581B2C867A00E1AC12 /* SettingTableViewController.swift in Sources */,
+				1646D8AE1B2D0220009355A8 /* DonorResultViewController.swift in Sources */,
+				162566321B2BF4C000E1AC12 /* LoginViewController.swift in Sources */,
+				1625664B1B2C5C3400E1AC12 /* ValidationViewController.swift in Sources */,
+				162566541B2C828800E1AC12 /* UploadDonateViewController.swift in Sources */,
+				162566601B2CAA8200E1AC12 /* DonorDetailViewController.swift in Sources */,
+				1625663B1B2C278B00E1AC12 /* DonateViewController.swift in Sources */,
+				162566391B2C00EF00E1AC12 /* NavigationController.swift in Sources */,
+				162566471B2C576F00E1AC12 /* UIColorExtension.swift in Sources */,
 				1625660B1B2BE6C700E1AC12 /* AppDelegate.swift in Sources */,
 				1625660E1B2BE6C700E1AC12 /* Foodo.xcdatamodeld in Sources */,
+				162566371B2BFA0200E1AC12 /* CustomObject.m in Sources */,
+				1625666E1B2CEE8100E1AC12 /* NeedTableViewController.swift in Sources */,
+				1625665E1B2CA29700E1AC12 /* DonateTableViewController.swift in Sources */,
+				1646D8A81B2CFCEC009355A8 /* ThankyouViewController.swift in Sources */,
+				162566701B2CEFBC00E1AC12 /* MessageViewController.swift in Sources */,
+				162566341B2BF90B00E1AC12 /* HomeViewController.swift in Sources */,
+				162566561B2C829B00E1AC12 /* UploadCollectViewController.swift in Sources */,
+				1625665A1B2C96B700E1AC12 /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,21 +572,38 @@
 		};
 		162566281B2BE6C700E1AC12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E84B2E4B6FFE20C0C95C32 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Foodo",
+				);
 				INFOPLIST_FILE = Foodo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Foodo/Foodo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		162566291B2BE6C700E1AC12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FA63034D81D66C0A96D4C3D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Foodo",
+				);
 				INFOPLIST_FILE = Foodo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Foodo/Foodo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -413,6 +660,7 @@
 				162566291B2BE6C700E1AC12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1625662A1B2BE6C700E1AC12 /* Build configuration list for PBXNativeTarget "FoodoTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +669,7 @@
 				1625662C1B2BE6C700E1AC12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
