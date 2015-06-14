@@ -28,6 +28,16 @@ class ValidationViewController: UIViewController {
         btnValidation.layer.borderColor = UIColor.grayColor().CGColor
         btnValidation.layer.backgroundColor = UIColor.orangeColor().CGColor
         
+        var swipeDown = UISwipeGestureRecognizer(target: self, action: Selector("handleSwipes:"))
+        swipeDown.direction = .Down
+        view.addGestureRecognizer(swipeDown)
+        
+    }
+    
+    func handleSwipes(sender:UISwipeGestureRecognizer) {
+        if (sender.direction == .Down) {
+            self.view.endEditing(true)
+        }
     }
 
 }
