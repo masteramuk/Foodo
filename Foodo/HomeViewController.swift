@@ -1,3 +1,4 @@
+
 //
 //  HomeViewController.swift
 //  Foodo
@@ -32,14 +33,11 @@ class HomeViewController: UIViewController {
     
     }
 
-    @IBAction func btnLogout(sender: AnyObject) {
-        PFUser.logOut()
-        var currentUser = PFUser.currentUser() // this will now be nil
-        
-        FBSession.activeSession().closeAndClearTokenInformation()
-        
-        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-        let loginViewController = storyBoard.instantiateViewControllerWithIdentifier("LoginView") as! LoginViewController
-        presentViewController(loginViewController, animated:true, completion:nil)
+    @IBAction func btnDonor(sender: AnyObject) {
+        performSegueWithIdentifier("UploadSegue", sender: self)
+    }
+    
+    @IBAction func btnCollector(sender: AnyObject) {
+        //performSegueWithIdentifier("UploadSegue", sender: self)
     }
 }
