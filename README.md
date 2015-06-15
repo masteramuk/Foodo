@@ -24,3 +24,6 @@ Mohammad Nurdin bin Norazan (Developer)
 Marcus Chia (UI/UX Designer)
 - http://marcuschia.com
 - info@marcuschia.com
+
+##REFERENCE
+http://www.hackathon.io/foodo
